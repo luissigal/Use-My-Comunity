@@ -1,0 +1,38 @@
+form ul {
+                list-style: none;
+}
+
+form ul li {
+        margin-bottom: 1.5em;
+}
+
+label {
+                color: #000000;
+                font: 1.5em/0.9em CrimsonTextRoman;
+                float: left;    
+}
+
+input[type="text"] {
+        height: 1.7em;
+}
+
+input[type="text"] {
+                padding-left: 3px;
+                padding-right: 3px;
+                font-size: 1em;
+                width: 23em;
+                color: #000;
+                border: 1px solid #0e1b14;
+                -moz-box-shadow: inset 1px 1px 4px rgba(14,27,20,0.75);
+                -webkit-box-shadow: inset 1px 1px 4px rgba(14,27,20,0.75);
+                box-shadow: inset 1px 1px 4px rgba(14,27,20,0.75);
+}
+
+input[type="submit"] {
+        margin-top: -1em;
+        margin-left: 6.4em;
+}
+
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }

@@ -2,13 +2,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="style.css?v=2" type="text/css">
 <title>Search for local services</title>
 </head>
 <body>
-<form method="post" action="home.jsp">
-	<label for="postcode">Postcode: <input type="text" name="postcode"></label>
-	<label for="category">Category: <input type="text" name="category"></label>
-	<input type="submit">
-</form> 
+<form action="home.jsp" method="post" id="search">
+	<ul>
+	<li class="clearfix"><label for="postcode">Postcode: <input type="text" name="postcode"></label></li>
+	<li class="clearfix"><label for="category">Category: <input type="text" name="category"></label></li>
+	<li class="clearfix"><input type="submit" value="Search"></li>
+	</ul>
+</form>
 </body>
 </html>

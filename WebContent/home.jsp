@@ -7,11 +7,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<script src="postcode.js" type="text/javascript"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=ja"></script>
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=ja"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> -->
 
-<title>input results</title>
+<title>Search Results</title>
 </head>
 <body>
 <h1>current postcode <%= search.getPostcode() %></h1>
