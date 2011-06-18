@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color:#DEAC18;
+	height:100%
+}
+
+hr {background-color:#AD6109; color:#AD6109;
+	height: 2px;}
+
+label {
+  font-family:"Arial";
+  font-size:20px;	
+}
+
+input {
+	font-size:20px
+}
+
+p {
+font-family:"Times New Roman";
+font-size:20px;
+}
+
+p#location {
+    font-size:30px;
+	color: #E01B94;
+}
+
+td.bottom
+{
+   vertical-align: bottom; /* Align all text in the cell to the bottom of it */
+   bottom: 0px; /* Let 0px between the text and the page's bottom */
+}
+
+.veryLarge {
+  font-family:"Arial";
+  font-size:180px;	
+}
+
+.red  {
+  color:#FF0000;
+}
+
+.green  {
+  color:#00FF00;
+}
+
+.blue  {
+  color:#0000FF;
+}
+
+
+#element-align {
+    position: fixed;
+    bottom: 0;
+}
